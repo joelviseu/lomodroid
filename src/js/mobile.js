@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 
 LOMO.Feed = function() {
-	var itemTemplate = "{{#entries}}<li>" +
+	var itemTemplate = "{{#entries}}<li class='gallery-item'>" +
 			"<a href='{{link}}' target='_blank'>" +
 			"<img class='photo' border='0' width='768' alt='{{ title }}' src='{{#mediaGroups}}{{#contents}}{{url}}{{/contents}}{{/mediaGroups}}'>" +
 			"<div class='metaContainer'><span>{{ title }}</span>" +

@@ -1,0 +1,363 @@
+
+html,body {
+  font-family: Lucida Grande, Lucida Sans Unicode, sans-serif;
+  font-size:100%;
+  color:threeddarkshadow;
+  margin:0;
+  margin-left:auto;
+  margin-right:auto;
+  width:768px;
+}
+
+a {
+  color:#333;
+  text-decoration:none;
+  white-space:nowrap;
+  margin-right:6px;
+  font-size:11px;
+}
+
+a:hover {
+  text-decoration: none;
+  color:black;
+  cursor: pointer;
+  text-decoration:underline;
+}
+
+#photo-list a {
+  margin-right:0px;
+}
+
+p {
+  margin:0;
+  padding:0;
+}
+
+h1{
+  font-size:2em;
+}
+h2{
+ 
+}
+label {
+  color: #666;
+  font-weight: bold;
+}
+
+ul{
+  list-style:none outside none;
+  padding:0;
+  margin:0;
+}
+
+img {
+  border: 0 none;
+}
+
+#sidenav-container{
+  border-right:thin dashed graytext;
+  height:100%;
+  left:0;
+  position:fixed;
+  text-align:right;
+  z-index:50;
+  width: 10em;
+  top:0;
+}
+#sidenav-menu{
+  padding:10em 1em 0 0;
+  margin: 0;
+}
+
+#sidenav-menu li{
+  padding: .5em 0;
+}
+
+#sidenav-menu li.selected{
+  font-weight:bold;
+}
+
+#top-corner-fixed-box {
+  border:1px dotted black;
+  padding:0.5em 3em;
+  position:fixed;
+  right:0;
+  top:0.5em;
+}
+#top-corner-fixed-box  span:first-child {
+  margin-right:2em;
+}
+#fixed-header {
+  position:fixed;
+  /*left:0;*/
+  margin-left:auto;
+  margin-right:auto;
+  
+  top:0;
+  width:768px;
+  background-color:white;
+}
+#header-container {
+  /*margin-left:8em;*/
+  margin-top:20px;
+  height:65px;
+}
+
+.link-container{
+  margin-top:5px;
+  margin-bottom:10px;
+  margin-left:10px;
+  float:left;
+}
+
+#lhs-header-container{
+  width:712px;
+}
+#rhs-header-container{
+  margin-left:712px;
+}
+
+.main-content-container{
+  display: block;
+  width: 768px;
+  clear:both;
+  /*margin-left:8em;*/
+  margin-top:85px;
+}
+
+#header-container a{
+  float:left;
+}
+
+#main-content {
+}
+
+#main-frame{
+ 
+}
+
+#header{ 
+}
+
+
+#header-title{
+  
+}
+
+
+#footer {
+  position: fixed;
+}
+
+.float-left {
+  float:left;
+}
+
+.float-right {
+  float:right;
+}
+
+.block {
+  display:block;
+}
+.chk-box-container {
+  margin: .5em 0 0 0;
+}
+.clear{
+  clear: both;
+}
+.hidden{
+  display:none;
+}
+
+/*
+* Xbox museum specific
+*/
+
+
+
+.game-item{
+  margin: 1em 0;
+}
+
+.games-img{
+  width:25%;
+  text-align: center;
+}
+
+.games-data{
+  margin: 0 0 0 25%;
+}
+
+.game-item p {
+  font-size: .8em;
+  padding:.5em 0;
+}
+
+.games-sviluppatore {
+  margin-left: 1em;
+}
+
+h3 {
+  display: inline;
+  margin-top: 0;
+}
+
+.game-details-table td{
+  font-size: .8em;
+  border-collapse: collapse;
+}
+
+
+.game-details-table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.game-details-table  tr:nth-child(odd) {
+  background-color:ghostWhite;
+}
+
+.game-details-table  td {
+  padding: .5em;
+}
+
+/*
+* Lomo specific
+*/
+
+#photo-list li{
+  margin: 2em 0em;
+  display: block;
+  height:auto;
+  width:768px;
+}
+
+#url {
+  width: 25em;
+}
+
+#robot{
+  margin-top: -20px;
+}
+
+#loader {
+  background-color:white;
+  bottom:0;
+  padding-top:30px;
+  height:40px;
+  left:0;
+  margin-left:8em;
+  position:fixed;
+  text-align:center;
+  width:768px;
+}
+
+.shareBox{
+  float:right;
+  margin-top:5px;
+}
+
+.seemore {
+  font-size:10em;
+  text-align:center;
+  
+}
+
+
+.metaContainer {
+  margin-top:4px;
+}
+
+.addthis_default_style .at300b, .addthis_default_style .at300m {
+  padding-right:0px!important;
+}
+/*
+* Floating hack
+*/
+
+
+/* Designed for 800x600 */
+.minRes {
+  width: 56.3em;
+  min-width: 750px;  /* min-width doesn't work in IE6 */
+  text-align: left;
+}
+
+.container:after { 
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.unit .container:after {
+  clear: none;
+}
+.unit .container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container,
+.unit {
+  zoom: 1;
+}
+
+.firstContent{
+  display: block;
+  margin: 0;
+  float: left;
+}
+
+.unit{
+  display: block;
+  width: auto;
+  float: none;
+}
+
+
+
+#shareContainer{
+  text-align: right;
+  display: inline-block;
+  float:right;
+}
+
+#shareContainer li {
+  margin:0;
+  display: inline-block;
+  width: auto;
+  
+  /*padding-top:5px;*/
+  padding-left:5px;
+  vertical-align:top;
+}
+#shareContainer li:not(:first-child){
+  padding-top:3px ;
+}
+
+
+
+.share-button16{
+  background: url(share.png) no-repeat left;
+  overflow: hidden;
+  display: block;
+  background-position: 0 0;
+  height: 16px;
+  width: 16px;
+  line-height: 16px!important;
+  cursor: pointer;
+  margin:0 0 0 0;
+  
+}
+
+.share-button16:hover{filter:alpha(opacity=80);}
+
+.fb-share{
+  background-position: 0 0px;
+}
+.tw-share{
+  background-position: 0 -16px;
+}
+

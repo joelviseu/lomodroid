@@ -1,0 +1,131 @@
+#fixed-header {
+	position: inherit;
+	left: 0;
+	top: 0;
+	background-color: white;
+	width:auto;
+}
+#header-container {
+margin-left: 0;
+}
+#rhs-header-container {
+margin-left: 300px;
+}
+#lhs-header-container {
+width: auto;
+}
+
+.main-content-container {
+	display: block;
+	clear: both;
+	margin-left: 0;
+	margin-top: 5px;
+	width:auto;
+}
+
+#photo-list li {
+	margin: 0.2em 0em;
+	display: inline-block;
+	height: auto;
+	width: auto;
+}
+
+.metaContainer {
+margin-top: -3px;
+}
+
+
+body{
+  /*background-color:red;*/
+}
+
+.photo{
+  width:450px;
+}
+
+
+
+html,body {
+  font-family: Lucida Grande, Lucida Sans Unicode, sans-serif;
+  font-size:100%;
+  color:threeddarkshadow;
+  margin:0;
+}
+
+a {
+  color:#333;
+  text-decoration:none;
+  white-space:nowrap;
+  margin-right:6px;
+  font-size:11px;
+}
+
+a:hover {
+  text-decoration: none;
+  color:black;
+  cursor: pointer;
+  text-decoration:underline;
+}
+
+#photo-list a {
+  margin-right:0px;
+}
+
+#header-container a {
+float: left;
+}
+style.css:12
+a {
+color: #333;
+text-decoration: none;
+white-space: nowrap;
+margin-right: 6px;
+font-size: 11px;
+}
+
+
+
+
+
+#shareContainer{
+  text-align: right;
+  display: inline-block;
+  float:right;
+}
+
+#shareContainer li {
+  margin:0;
+  display: inline-block;
+  width: auto;
+  
+  /*padding-top:5px;*/
+  padding-left:5px;
+  vertical-align:top;
+}
+#shareContainer li:not(:first-child){
+  padding-top:3px ;
+}
+
+
+
+.share-button16{
+  background: url(/share.png) no-repeat left;
+  overflow: hidden;
+  display: block;
+  background-position: 0 0;
+  height: 16px;
+  width: 16px;
+  line-height: 16px!important;
+  cursor: pointer;
+  margin:0 0 0 0;
+  
+}
+
+.share-button16:hover{filter:alpha(opacity=80);}
+
+.fb-share{
+  background-position: 0 0px;
+}
+.tw-share{
+  background-position: 0 -16px;
+}
