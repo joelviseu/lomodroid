@@ -30,9 +30,9 @@
 			require_once('mobile_device_detect.php');
 			require_once("phpFlickr.php");
 			mobile_device_detect(true,true,true,false,true,true,true,'http://www.xbox360museum.com/sandbox/index_mobile.php',false);
-			$f = new phpFlickr("cdebb75fb498222416d23dce91618f9a", "065215435996f0d9");
-			$photoset_id = "72157624682260557";
-			$secret= "065215435996f0d9";
+			$f = new phpFlickr("", "");
+			$photoset_id = "";
+			$secret= "";
 		?>
 		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
   </head>
