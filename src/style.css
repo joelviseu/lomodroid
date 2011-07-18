@@ -334,7 +334,7 @@ h3 {
   vertical-align:top;
 }
 #shareContainer li:not(:first-child){
-  padding-top:3px ;
+  /*padding-top:3px ;*/
 }
 
 
